@@ -8,11 +8,10 @@ Thank you for contributing to CDISC's open source work. This guide explains how 
 
 1. [Work Estimation Overview](#work-estimation-overview)
 2. [T-Shirt Size Scale](#t-shirt-size-scale)
-3. [How Estimation Works: Planning Poker](#how-estimation-works-planning-poker)
-4. [Submitting Issues](#submitting-issues)
-5. [GitHub Project Workflow](#github-project-workflow)
-6. [For Outside Collaborators](#for-outside-collaborators)
-7. [How This Feeds Leadership Reporting](#how-this-feeds-leadership-reporting)
+3. [Submitting Issues](#submitting-issues)
+4. [GitHub Project Workflow](#github-project-workflow)
+5. [For Outside Collaborators](#for-outside-collaborators)
+6. [How This Feeds Leadership Reporting](#how-this-feeds-leadership-reporting)
 
 ---
 
@@ -40,26 +39,11 @@ This approach is used by the CDISC Data Science and COSA teams and is designed t
 
 ---
 
-## How Estimation Works: Planning Poker
-
-The CDISC core team uses **Planning Poker** to arrive at estimates collaboratively. Here is how it works:
-
-1. **Issue author** presents the issue — reads the title, description, and acceptance criteria aloud (or in a shared call).
-2. **Each estimator** independently selects a size without revealing it.
-3. **All sizes are revealed simultaneously** — this prevents anchoring bias where early opinions influence others.
-4. **If everyone agrees**, the size is recorded and the team moves on.
-5. **If there is disagreement**, the highest and lowest estimators briefly explain their reasoning. This conversation surfaces hidden complexity or missing context that improves the whole team's understanding.
-6. **Re-vote** until the team converges. The goal is shared understanding, not a perfect answer.
-
-Planning Poker sessions are held at the start of each sprint. New issues submitted between sprints are estimated in the following session unless they are urgent.
-
----
-
 ## Submitting Issues
 
 When opening a new issue in any `cdisc-org` repository:
 
-- **Do not assign a size yourself** — leave the "T-Shirt Size" field blank. The core team will estimate it during the next Planning Poker session.
+- **Set your own T-Shirt Size** — as the issue owner, you are responsible for selecting the size that best reflects the effort and complexity of your issue. Use the scale above as your guide.
 - **Write clear acceptance criteria** — the single biggest driver of estimation accuracy is understanding *what done looks like*. Use the format:
   ```
   Given [context], when [action], then [expected result].
@@ -67,7 +51,7 @@ When opening a new issue in any `cdisc-org` repository:
 - **Link related issues** — if your issue depends on or is blocked by another, note it in the description.
 - **Use the issue template** if one exists in the repository.
 
-If you have a rough sense of complexity and want to share it, add a comment with your thinking — the team will consider it during estimation. Do not set the T-Shirt Size field directly.
+If you are unsure of the right size, pick your best estimate and add a comment explaining your reasoning — a maintainer may adjust it if needed.
 
 ---
 
@@ -85,7 +69,7 @@ All issues across `cdisc-org` repositories are tracked in the **CDISC IT & Open 
 
 **Custom fields on every issue:**
 
-- **T-Shirt Size** — XS / S / M / L / XL, assigned after Planning Poker
+- **T-Shirt Size** — XS / S / M / L / XL, set by the issue owner when the issue is created
 - **Iteration** — The sprint this issue is assigned to (2-week cycles)
 - **Milestone** — The release or roadmap milestone this issue contributes to
 
@@ -95,7 +79,7 @@ All issues across `cdisc-org` repositories are tracked in the **CDISC IT & Open 
 
 Welcome — we are glad to have you. Here is what you need to know:
 
-- **Open issues freely.** You do not need to estimate your own issues. The CDISC core team handles estimation.
+- **Open issues freely.** Set the T-Shirt Size field to your best estimate of the effort involved — use the scale in this guide.
 - **Pull requests are welcome** for issues labeled `good first issue` or `help wanted`.
 - **If you are picking up an unassigned issue**, leave a comment so the team can confirm it is ready and assign it to you.
 - **Milestone dates are set by the core team.** If you are working toward a milestone, check with the issue author or a maintainer to confirm the target date is still accurate.
