@@ -101,4 +101,4 @@ These views are available in the GitHub Project's **Insights** tab and are refre
 
 ---
 
-*This document is maintained by the CDISC IT team. For questions about the estimation process, contact [jbclark@cdisc.org](mailto:jbclark@cdisc.org).*
+*This document is maintained by the CDISC Engineering team.
